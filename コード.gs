@@ -1,3 +1,4 @@
+//GASを使ったテスト結果の転記
 function main(){
   planSheetOpen();
   var file = getFilesByNameRgeExp();
