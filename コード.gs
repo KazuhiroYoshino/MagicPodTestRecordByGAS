@@ -28,7 +28,7 @@ function resultSheetOpen(){
 //magicpod-analyzerで取得したjsonファイルは、自動テスト記録スプシと同じGoogleドライブに置く
 function getFilesByNameRgeExp(){
   // フォルダの指定
-  const folderId= "1nIzJ1-Id29iMQRzN5VgkuRsz0u0hPKZc"
+  const folderId= "ここにGoogleDriveのフォルダID"
  //フォルダ内のすべてのファイルを取得
   const folder = DriveApp.getFolderById(folderId);
 
